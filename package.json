@@ -1,5 +1,5 @@
 {
-  "name": "vdn",
+  "name": "vaidarnamoro",
   "version": "0.0.1",
   "description": "App para se transformar no sonoplasta do Vai dar namoro",
   "productName": "Vai dar namoro sonoplastia",
@@ -8,7 +8,8 @@
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "start": "vue-cli-service-serve"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
